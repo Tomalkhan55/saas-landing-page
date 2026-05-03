@@ -37,7 +37,7 @@ export default function Pricing() {
   const inView = useInView(ref, { once: true });
 
   return (
-    <section id="pricing" className="py-28">
+    <section id="pricing" className="py-4">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <motion.div

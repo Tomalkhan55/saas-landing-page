@@ -48,7 +48,7 @@ export default function HowItWorks() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section id="how-it-works" className="py-28 relative">
+    <section id="how-it-works" className="py-16 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-brand-blue/3 to-transparent pointer-events-none" />
 
       <div className="max-w-6xl mx-auto px-6 relative z-10">

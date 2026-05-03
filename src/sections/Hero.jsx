@@ -9,7 +9,7 @@ const fadeUp = (delay = 0) => ({
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center grid-bg overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center justify-center grid-bg overflow-hidden pt-10">
       {/* Background blobs */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-brand-blue/8 blur-[120px] pointer-events-none" />
       <div className="absolute top-1/3 left-1/4 w-[300px] h-[300px] rounded-full bg-brand-blueLight/5 blur-[80px] pointer-events-none" />
