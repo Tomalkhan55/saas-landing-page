@@ -1,16 +1,54 @@
-# React + Vite
+# NexusAI — SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-converting SaaS landing page built with React and Framer Motion. Features smooth scroll animations, glassmorphism design, and a fully responsive layout.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-06B6D4?style=flat&logo=tailwindcss)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-FF0055?style=flat&logo=framer)
+![Vite](https://img.shields.io/badge/Vite-6-646CFF?style=flat&logo=vite)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sections
 
-## React Compiler
+- **Navbar** — Sticky with glass effect on scroll, mobile responsive menu
+- **Hero** — Animated headline, dashboard preview, social proof
+- **Features** — 6 feature cards with scroll-triggered fade-in
+- **How it Works** — 3-step process with animated connector
+- **Pricing** — 3 tier cards with highlighted Pro plan
+- **Testimonials** — 6 customer reviews with staggered animation
+- **CTA Banner** — Glowing call-to-action section
+- **Footer** — Clean minimal footer with links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+| Technology | Purpose |
+|---|---|
+| React 19 + Vite | Frontend framework |
+| Tailwind CSS 3 | Styling |
+| Framer Motion | Scroll animations & transitions |
+| Lucide React | Icons |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+```bash
+git clone https://github.com/tomalkhan55/saas-landing-page.git
+cd saas-landing-page
+npm install
+npm run dev
+```
+
+## Deploy to Vercel
+
+```bash
+npm install -g vercel
+vercel --prod
+```
+
+No environment variables needed — deploy instantly.
+
+## License
+
+MIT License — free to use for personal and commercial projects.
+
+---
+
+Built with React + Framer Motion
